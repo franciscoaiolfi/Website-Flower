@@ -3,32 +3,27 @@
   padding: 0;
 }
 
-main {
-  background-color: aliceblue;
-  background-size: cover;
-  height: 92vh;
-}
-
-a {
+.varanda-a {
   color: rgb(59, 56, 56);
   text-decoration: none;
   transition: 0.3s;
 }
-a:hover {
+.varanda-a:hover {
   opacity: 0.8;
 }
 
-.logo {
+.logo-varanda {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 600;
+  text-decoration: none;
 }
-.logo span {
+.logo-varanda span {
   color: rgb(99, 189, 99);
 }
 
-nav {
+.nav-varanda {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -36,11 +31,11 @@ nav {
   background-color: rgb(216, 229, 241);
   height: 10vh;
 }
-.nav-list-content {
+.nav-list-content-varanda {
   list-style: none;
   display: flex;
 }
-.nav-list-content li {
+.nav-list-content-varanda li {
   letter-spacing: 3px;
   margin-left: 32px;
   margin-top: 15px;
@@ -64,7 +59,7 @@ nav {
     overflow-x: hidden;
   }
 
-  .nav-list-content {
+  .nav-list-content-varanda {
     position: absolute;
     top: 8vh;
     right: 0;
@@ -78,7 +73,7 @@ nav {
     transition: transform 0.3s ease-in;
   }
 
-  .nav-list-content li {
+  .nav-list-content-varanda li {
     margin-left: 0;
     opacity: 0;
   }
@@ -87,7 +82,7 @@ nav {
   }
 }
 
-.nav-list-content.active {
+.nav-list-content-varanda.active {
   transform: translateX(0);
 }
 @keyframes navLinkFade {
@@ -114,3 +109,77 @@ nav {
 }
 
 /* Mobile-Menu */
+
+/*-------------------------- SLIDER --------------------- */
+.slider-wrapper-varanda{
+display: flex;
+flex-direction: center;
+justify-content: center;
+align-items: center;
+}
+
+#slider{
+width: 100%;
+height: 40vw;
+max-height: 400px;
+position: relative;
+}
+
+#slider img{
+opacity: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: opacity 1000ms;
+
+}
+ 
+
+#slider img.selected{
+  opacity: 1;
+}
+/*-------------------------- SLIDER --------------------- */
+
+/*-------------------------- SERVICES SECTION --------------------- */
+.services-section{
+ background-color: rgb(194, 191, 197);
+ height: 80vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 0;
+}
+
+
+.varanda-services-wrapper{
+ background-color: rgb(208, 225, 233);
+ height: 90%;
+ width: 95%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.varanda-services-left{}
+
+
+
+
+.varanda-services-left img{
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------- SERVICES SECTION --------------------- */
