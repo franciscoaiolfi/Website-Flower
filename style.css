@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  scroll-behavior: smooth;
+}
 
 .varanda-a {
   color: rgb(59, 56, 56);
@@ -231,59 +234,53 @@ font-size: 20px;
 
 
 
-/*------------------------CARDS COMMENTS SECTION -------------------------*/
+/*------------------------Sobre Nós -------------------------*/
 
+.sobre-img{
+align-items: center;
+justify-content: center;
+padding: 2px 2px 2px 2px;
+margin-top: 2rem;
+font-family: 'Lato', sans-serif;
+line-height: 1.65rem;
+}
+.sobre-img h3{
+  color: #ee7222;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
 
-.card-varanda-one{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-top: 3rem;
+.sobre-img h1{
+margin-top: 1.5rem;
+}
+
+.sobre-img p{
+color: #6b7389;
+font-size: 18px;
+text-align:justify;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 1.1px;
+}
+
+.sobre-img-direita{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.sobre-img-direita img{
+  width: 100%;
+  height: 90%;
   padding: 2px 2px 2px 2px;
+  object-fit: cover;
+  float: right;
+  opacity: 0.8;
+
  
 }
 
-.comment-one{
-  width: 15rem;
-  height: 30rem; 
-  transition: 0.8s;
+.sobre-img-direita img:hover{
+  opacity: 0.9;
 }
-.comment-one:hover{
-  width: 16rem;
-  height: 32rem;
-  transition: 1.3s;
-}
-
-
-.img-comments{
-width: 100%;
-height: 100%;
-}
-
-
-.clients-varanda{
-color: orangered;
-text-align: center;
-font-family: sans-serif;
-font-weight: 500;
-margin-top: 50px;
-font-display: normal;
-font-size: 30px;
-letter-spacing: 2px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*------------------------CARDS COMMENTS SECTION -------------------------*/
+/*------------------------Sobre nós -------------------------*/
